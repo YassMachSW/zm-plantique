@@ -10,6 +10,7 @@ body {
 
 .app-container {
   text-align: center;
+  direction: rtl;
 }
 
 /* ===== Header ===== */
