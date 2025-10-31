@@ -30,9 +30,9 @@ const CareInstructions = () => {
             <p className="care-text">
               הוראות טיפול לטרריום סגור
 <br/>
-ברכות על הרכישה! 🌿
-הטרריום שלך הוא עולם קטן וסגור.
-חי ונושם, שזקוק לטיפול עדין בלבד.
+ברכות על הרכישה! 🌿<br/>
+הטרריום שלך הוא עולם קטן וסגור.<br/>
+חי ונושם, שזקוק לטיפול עדין בלבד.<br/>
 כדי לשמור עליו לאורך זמן, חשוב לעקוב אחרי ההנחיות הבאות:
 
 
