@@ -26,7 +26,7 @@ function App() {
   </p>
   <div style={{ display: 'flex', gap: '20px', marginTop: '10px' }}>
     {/* אינסטגרם */}
-    <a href="https://www.instagram.com/deligh_tech?igsh=MWI5a3h3dmZpY2NvMg==" target="_blank" rel="noreferrer" style={{ color: '#E1306C', fontSize: '24px' }}>
+    <a href="instagram://user?username=deligh_tech" target="_blank" rel="noreferrer" style={{ color: '#E1306C', fontSize: '24px' }}>
       <i className="fab fa-instagram"></i>
     </a>
 
