@@ -1,4 +1,5 @@
 import React from "react";
+import instagram from "../assets/insta.png";
 
 const Contact = () => {
   return (
@@ -6,8 +7,8 @@ const Contact = () => {
       <h2 className="section-title">צרי קשר</h2>
       <div className="contact-links">
         <a href="tel:+972501234567" className="contact-link">📞 050-1234567</a>
-        <a href="https://instagram.com/zmplantique" target="_blank" rel="noreferrer" className="contact-link">
-          📸 אינסטגרם
+        <a href="https://www.instagram.com/zm.plantique?igsh=MWFoMzh2d2Y2YmlxOQ%3D%3D&utm_source=qr" target="_blank" rel="noreferrer" className="contact-link">
+            <img src={instagram} alt="ZM Plantique Logo"  className="logo bounce" />
         </a>
         <a href="https://wa.me/972501234567" target="_blank" rel="noreferrer" className="contact-link">
           💬 וואטסאפ
