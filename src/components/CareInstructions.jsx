@@ -1,35 +1,38 @@
 import React, { useState } from "react";
 
 const CareInstructions = () => {
-  const [openType, setOpenType] = useState(null);
+  const [open, setOpen] = useState(null);
+
+  const toggle = (type) => setOpen(open === type ? null : type);
 
   return (
-    <section className="care-section">
+    <section className="care-section fade-in-up">
       <h2 className="section-title">הוראות טיפול</h2>
-      <div className="care-options">
-        <button
-          className="care-button"
-          onClick={() => setOpenType(openType === "open" ? null : "open")}
-        >
-          🌿 טרריום פתוח
-        </button>
-        {openType === "open" && (
-          <p className="care-text fade-in">
-            השקה קלה אחת לשבועיים, מיקום מואר אך ללא שמש ישירה, וניקוי אבק עדין מהעלים.
-          </p>
-        )}
 
-        <button
-          className="care-button"
-          onClick={() => setOpenType(openType === "closed" ? null : "closed")}
-        >
-          🌱 טרריום סגור
-        </button>
-        {openType === "closed" && (
-          <p className="care-text fade-in">
-            אין צורך בהשקיה – הלחות הפנימית מספקת. הימנעי מחשיפה לשמש ישירה ופתחי לאוורור פעם בחודש.
-          </p>
-        )}
+      <div className="care-container">
+        <div className="care-box slide-in">
+          <button className="care-btn" onClick={() => toggle("open")}>
+            🌿 טרריום פתוח
+          </button>
+          {open === "open" && (
+            <p className="care-text">
+              השקיה עדינה אחת לשבועיים, מיקום מואר אך ללא שמש ישירה.
+              יש לנקות בעדינות אבק מהעלים במטלית רכה.
+            </p>
+          )}
+        </div>
+
+        <div className="care-box slide-in">
+          <button className="care-btn" onClick={() => toggle("closed")}>
+            🌱 טרריום סגור
+          </button>
+          {open === "closed" && (
+            <p className="care-text">
+              ללא השקיה – הלחות הפנימית מספקת. הימנעי מחשיפה לשמש ישירה
+              ופתחי לאוורור אחת לחודש.
+            </p>
+          )}
+        </div>
       </div>
     </section>
   );

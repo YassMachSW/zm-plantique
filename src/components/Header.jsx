@@ -3,8 +3,8 @@ import logo from "../assets/logo.jpg";
 
 const Header = () => {
   return (
-    <header className="header">
-      <img src={logo} alt="ZM Plantique Logo" className="logo" />
+    <header className="header fade-in">
+      <img src={logo} alt="ZM Plantique Logo" className="logo bounce" />
       <h1 className="title">ZM PLANTIQUE</h1>
       <p className="subtitle">עיצוב טרריומים בעבודת יד 🌿</p>
     </header>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="contact-section">
+    <section className="contact fade-in-up">
       <h2 className="section-title">צרי קשר</h2>
       <div className="contact-links">
         <a href="tel:+972501234567" className="contact-link">📞 050-1234567</a>
