@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Assistant', sans-serif;
+  background: linear-gradient(135deg, #e8f5e9, #f7f3e9);
+  color: #2e4a33;
+  overflow-x: hidden;
+}
+
+.app-container {
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Header */
+.header {
+  padding: 2rem 1rem;
+  animation: slideDown 1.5s ease;
+}
+.logo {
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid #c6a664;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+.title {
+  font-size: 2.2rem;
+  color: #2e4a33;
+  margin: 0.5rem 0 0;
+}
+.subtitle {
+  font-size: 1.1rem;
+  color: #7b8f78;
+}
+
+/* Care Section */
+.care-section {
+  padding: 2rem 1rem;
+}
+.section-title {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #2e4a33;
+}
+.care-button {
+  display: block;
+  background: #c6a664;
+  color: white;
+  border: none;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.care-button:hover {
+  background: #b29454;
+  transform: scale(1.05);
+}
+.care-text {
+  max-width: 500px;
+  margin: 0 auto 15px;
+  background: #f9f6ee;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Contact Section */
+.contact-section {
+  background: #e9f2ea;
+  padding: 2rem 1rem;
+  border-top: 2px solid #c6a664;
+}
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-link {
+  color: #2e4a33;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.contact-link:hover {
+  color: #b29454;
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  background: #2e4a33;
+  color: white;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .title { font-size: 1.8rem; }
+  .care-text { font-size: 0.9rem; }
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  color: #4a7856;
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(212, 175, 55, 0.3);
+}
