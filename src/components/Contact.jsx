@@ -19,7 +19,13 @@ const Contact = () => {
         <a href="https://wa.me/972523240488" target="_blank" rel="noreferrer" className="contact-link">
           💬 וואטסאפ
         </a>
-        <a href="https://bitpay.co.il/paymentlink" target="_blank" rel="noreferrer" className="contact-link">
+        {/* <a href="https://bitpay.co.il/paymentlink" target="_blank" rel="noreferrer" className="contact-link"> */}
+        <a
+  href="https://www.bitpay.co.il/app/me/7FF9BBC5-DD9C-E996-A24C-D7A6F98E0B482178"
+  target="_blank"
+  rel="noreferrer"
+  className="contact-link"
+>
           💳 תשלום בביט
         </a>
       </div>
