@@ -16,7 +16,7 @@ const Contact = () => {
 >
             <img src={instagram} alt="ZM Plantique Logo"  className="logo bounce" />
         </a>
-        <a href="https://wa.me/972501234567" target="_blank" rel="noreferrer" className="contact-link">
+        <a href="https://wa.me/972523240488" target="_blank" rel="noreferrer" className="contact-link">
           💬 וואטסאפ
         </a>
         <a href="https://bitpay.co.il/paymentlink" target="_blank" rel="noreferrer" className="contact-link">
