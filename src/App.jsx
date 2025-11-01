@@ -37,7 +37,7 @@ function App() {
   </div>
 
   <p style={{ marginTop: '10px', fontSize: '12px', color: '#777' }}>
-    © {new Date().getFullYear()} DelighTech. כל הזכויות שמורות.
+    © {new Date().getFullYear()} Deligh-Tech. כל הזכויות שמורות.
   </p>
       </footer>
     </div>
