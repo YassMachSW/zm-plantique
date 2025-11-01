@@ -110,22 +110,21 @@ body {
 } */
 .contact-link {
   text-decoration: none;
-  color: #2e4a33;
-  font-weight: 600;
+  color: #c6d2b5;
   border: 2px solid #c6a664;
-  padding: 1rem 1.2rem; /* 🔹 יותר מרווח פנימי */
+  padding: 1rem 1.2rem;
   border-radius: 25px;
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 9rem; /* 🔹 הגדלנו את האייקון עצמו */
-  width: 65px; /* 🔹 גודל אחיד לכל כפתור */
+  font-size: 3.5rem; /* 👈 האייקונים גדולים וברורים */
+  width: 65px;
   height: 65px;
 }
 
 .contact-link:hover {
-  background: #c6a664;
+    background: #c6a664;
   color: white;
   transform: scale(1.08);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -167,10 +166,7 @@ body {
     font-size: 1.6rem;
   } */
   .contact-link {
-     width: 55px;
-    height: 55px;
-    font-size: 9rem;
-    padding: 0.8rem;
+      font-size: 3.3rem;
   }
   /* .contact-link img {
     width: 28px;
@@ -180,10 +176,7 @@ body {
 
 @media (max-width: 480px) {
   .contact-link {
-    width: 50px;
-    height: 50px;
-    font-size: 1.5rem;
-    padding: 0.7rem;
+     font-size: 3.2rem;
   }
 }
 /* ===== Footer ===== */
