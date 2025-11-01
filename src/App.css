@@ -108,7 +108,7 @@ body {
   display: flex;
   align-items: center;
 } */
-.contact-link {
+/*.contact-link {
   /* text-decoration: none;
   color: #c6d2b5;
   border: 2px solid #c6a664;
@@ -121,8 +121,8 @@ body {
   font-size: 3.6rem; /* 👈 האייקונים גדולים וברורים */
   /*width: 65px;
   height: 65px; */
-  text-decoration: none;
-  color: #c6d2b5;
+  /* text-decoration: none;
+  color: #2e4a33;
   border: 2px solid #c6a664;
   padding: 1rem 1.2rem;
   border-radius: 25px;
@@ -130,16 +130,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70px;
-  height: 70px;
-  font-size: 3.8rem; /* גודל בסיס */
+  width: 100px;
+  height: 100px;
+  font-size: 3.8rem; גודל בסיס 
+}*/
+.contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #c6a664;
+  border-radius: 25px;
+  color: #2e4a33;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
-
 .contact-link:hover {
     background: #c6a664;
   color: white;
   transform: scale(1.08);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.contact-link .icon {
+  width: 60%;
+  height: 60%;
+  font-size: 2.5rem; /* בסיס */
 }
 
 /* 🔹 עיגול עדין סביב כל אייקון */
@@ -178,9 +194,11 @@ body {
     font-size: 1.6rem;
   } */
   .contact-link {
-    font-size: 5rem; /* יותר גדול */
-    width: 75px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
+  }
+    .contact-link .icon {
+    font-size: 2.8rem; /* יותר גדול */
   }
   /* .contact-link img {
     width: 28px;
@@ -190,9 +208,11 @@ body {
 
 @media (max-width: 480px) {
   .contact-link {
-     font-size: 5.6rem; /* הכי גדול */
     width: 80px;
     height: 80px;
+  }
+    .contact-link .icon {
+    font-size: 3rem; /* יותר גדול */
   }
 }
 /* ===== Footer ===== */

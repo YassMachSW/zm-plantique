@@ -7,8 +7,8 @@ const Contact = () => {
       <h2 className="section-title">יצירת קשר</h2>
       <div className="contact-links">
         {/* טלפון */}
-        <a href="tel:+972523240488" className="contact-link icon-btn" title="התקשר">
-          <FaPhoneAlt />
+        <a href="tel:+972523240488" className="contact-link" title="התקשר">
+          <FaPhoneAlt className="icon"/>
         </a>
 
         {/* אינסטגרם */}
@@ -16,10 +16,10 @@ const Contact = () => {
           href="instagram://user?username=zm.plantique"
           target="_blank"
           rel="noreferrer"
-          className="contact-link icon-btn"
+          className="contact-link"
           title="Instagram"
         >
-          <FaInstagram />
+          <FaInstagram className="icon"/>
         </a>
 
         {/* וואטסאפ */}
@@ -27,10 +27,10 @@ const Contact = () => {
           href="https://wa.me/972523240488"
           target="_blank"
           rel="noreferrer"
-          className="contact-link icon-btn"
+          className="contact-link"
           title="WhatsApp"
         >
-          <FaWhatsapp />
+          <FaWhatsapp className="icon"/>
         </a>
 
         {/* ביט */}
@@ -38,10 +38,10 @@ const Contact = () => {
           href="https://www.bitpay.co.il/app/me/7FF9BBC5-DD9C-E996-A24C-D7A6F98E0B482178"
           target="_blank"
           rel="noreferrer"
-          className="contact-link icon-btn"
+          className="contact-link"
           title="תשלום בביט"
         >
-          <FaCreditCard />
+          <FaCreditCard className="icon"/>
         </a>
       </div>
     </section>
