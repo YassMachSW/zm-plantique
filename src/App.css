@@ -118,7 +118,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3.5rem; /* 👈 האייקונים גדולים וברורים */
+  font-size: 3.6rem; /* 👈 האייקונים גדולים וברורים */
   width: 65px;
   height: 65px;
 }
@@ -166,7 +166,7 @@ body {
     font-size: 1.6rem;
   } */
   .contact-link {
-      font-size: 3.3rem;
+      font-size: 4.2rem;
   }
   /* .contact-link img {
     width: 28px;
@@ -176,7 +176,7 @@ body {
 
 @media (max-width: 480px) {
   .contact-link {
-     font-size: 3.2rem;
+     font-size: 4.6rem;
   }
 }
 /* ===== Footer ===== */
